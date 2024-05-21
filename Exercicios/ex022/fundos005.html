@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento de Box</title>
+    <style>
+        section#container{
+            position: relative;
+            height: 96vh;
+            background-size: 100% 100%;padding: 10px;
+
+            background-image: url(imagens/target001.png);
+            background-color: red;
+        }
+        article#content1{
+            background-image: url(imagens/target001.png);
+            background-color: aqua;
+
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            background-size: 100% 100%;
+
+            left: 50%;
+            top: 50%;
+
+            transform:translate(-50%, -50%);
+        }
+        article#content2{
+            background-image: url(imagens/target001.png);
+            background-color: gray;
+
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            background-size: 100% 100%;
+
+            left: 20%;
+            top: 20%;
+
+            transform:translate(-50%, -50%);
+        }
+        article#content3{
+            background-image: url(imagens/target001.png);
+            background-color: yellow;
+
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            background-size: 100% 100%;
+
+            left: 80%;
+            top: 80%;
+
+            transform:translate(-50%, -50%);
+        }
+
+        article#content4{
+            background-image: url(imagens/target001.png);
+            background-color: green;
+
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            background-size: 100% 100%;
+
+            left: 80%;
+            top: 20%;
+
+            transform:translate(-50%, -50%);
+        }
+        article#content5{
+            background-image: url(imagens/target001.png);
+            background-color: purple;
+
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            background-size: 100% 100%;
+
+            left: 20%;
+            top: 80%;
+
+            transform:translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="container"> 
+        <article id="content5">
+        </article>
+
+        <article id="content4">
+        </article>
+
+        <article id="content3">
+        </article>
+
+        <article id="content2">
+        </article> 
+
+        <article id="content1">
+        </article>
+    </section>
+    
+</body>
+</html>
