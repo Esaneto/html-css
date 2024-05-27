@@ -6,16 +6,23 @@
     <title>Tabela Grande</title>
     <style>
         *{font-family: Arial, Helvetica, sans-serif;}
+        body{
+            background-color: teal;
+        }
         table{
+            margin: auto;
             width: 500px;
             border-collapse: collapse;
         }
         caption{
+            border: 1px solid black;
             background-color: gray;
             padding: 10px;
             font-size: 1.5em;
         }
         th{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.796);
             border: 1px solid black;
             text-align: center;
             padding: 10px;
@@ -28,6 +35,15 @@
         }
         td.num{
             text-align: right;
+        }
+        tfoot > tr{
+            background-color: white;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(even){
+            background-color: white;
         }
     </style>
 </head>
